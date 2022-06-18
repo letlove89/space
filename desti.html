@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="assets/owl/scss/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl/scss/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" integrity="sha512-IJ+BZHGlT4K43sqBGUzJ90pcxfkREDVZPZxeexRigVL8rzdw/gyJIflDahMdNzBww4k0WxpyaWpC2PLQUWmMUQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  </head>
+  <body class="position-relative">
+    <header class="header-line">
+      <section>
+        <div class="logo"><img src="assets/images/tab/logo2.svg" alt=""></div>
+        <div class="menu">
+          <div class="menu-button"></div>
+          <div class="sideBar" id="menu">
+            <div class="item"><a class="list-item" href="index.html">
+                <p>00</p>HOME</a></div>
+            <div class="item"><a class="list-item" href="desti.html">
+                <p>01</p>DESTINATION</a></div>
+            <div class="item"><a class="list-item" href="crew.html">
+                <p>02</p>CREW</a></div>
+            <div class="item"><a class="list-item" href="technology.html">
+                <p>03</p>TECHNOLOGY</a></div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <section class="desti-bg" id="desti">
+      <div class="container">
+        <div class="desti">
+          <div class="row"> 
+            <div class="col-sm-12 col-lg-7">
+              <div class="desti__title"><span>01</span>
+                <h5>Pick your destination</h5>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-5">
+              <div class="desti__content">
+                <div class="tabs">
+                  <input id="tabone" type="radio" data-tab="moon" name="tabs" checked="checked">
+                  <label class="tabs-label" for="tabone">MOON</label>
+                  <div class="tab">
+                    <div class="tab__img"><img src="./assets/images/moon.png" alt=""></div>
+                    <h2>MOON</h2>
+                    <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                    <div class="tab__footer">
+                      <div class="tab__footer-content pl-0">
+                        <h5>AVG. DISTANCE</h5>
+                        <h3>384,400 km</h3>
+                      </div>
+                      <div class="tab__footer-content tf1">
+                        <h5>Est. travel time</h5>
+                        <h3>3 days</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <input id="tabtwo" type="radio" name="tabs">
+                  <label class="tabs-label" for="tabtwo">MARS</label>
+                  <div class="tab">
+                    <div class="tab__img"><img src="./assets/images/mars.png" alt=""></div>
+                    <h2>MARS</h2>
+                    <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+                    <div class="tab__footer">
+                      <div class="tab__footer-content pl-0">
+                        <h5>AVG. DISTANCE</h5>
+                        <h3>225 MIL. km</h3>
+                      </div>
+                      <div class="tab__footer-content tf1">
+                        <h5>Est. travel time</h5>
+                        <h3>9 months</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <input id="tabthree" type="radio" name="tabs">
+                  <label class="tabs-label" for="tabthree">EUROPA</label>
+                  <div class="tab">
+                    <div class="tab__img"><img src="./assets/images/euro.png" alt=""></div>
+                    <h2>EUROPA</h2>
+                    <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                    <div class="tab__footer">
+                      <div class="tab__footer-content pl-0">
+                        <h5>AVG. DISTANCE</h5>
+                        <h3>628 MIL. km</h3>
+                      </div>
+                      <div class="tab__footer-content tf1">
+                        <h5>Est. travel time</h5>
+                        <h3>3 years</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <input id="tabfour" type="radio" name="tabs">
+                  <label class="tabs-label" for="tabfour">TITAN</label>
+                  <div class="tab">
+                    <div class="tab__img"><img src="./assets/images/titan.png" alt=""></div>
+                    <h2>TITAN</h2>
+                    <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                    <div class="tab__footer">
+                      <div class="tab__footer-content pl-0">
+                        <h5>AVG. DISTANCE</h5>
+                        <h3>1.6 BIL. km</h3>
+                      </div>
+                      <div class="tab__footer-content tf1">
+                        <h5>Est. travel time</h5>
+                        <h3>7 years</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/libs/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/libs/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/owl/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/slider.js"></script>
+    <script type="text/javascript" src="assets/js/nav.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
